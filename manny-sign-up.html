@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FormStack</title>
+    <style>
+      .full-page  {
+        margin-left: 800px;
+        margin-top: 300px;
+      }
+      .sign-up {
+        font-family: Arial;
+        font-size: 70px;
+        font-weight: bold;
+        color: goldenrod;
+      }
+      .inputs {
+        height: 80px;
+        width: 430px;
+        margin-top: 30px;
+      }
+      .inputs::placeholder {
+        font-family: Arial;
+        font-size: 25px;
+        padding-left: 13px;
+        font-weight: bold;
+        color: black;
+       
+      }
+      .inputss {
+        height: 80px;
+        width: 890px;
+        margin-top: 30px;
+      }
+      .inputss::placeholder {
+        font-family: Arial;
+        font-size: 25px;
+        padding-left: 13px;
+        color: black;
+        font-weight: bold;
+      }
+      .texts {
+        font-family: Arial;
+        font-size: 30px;
+        margin-bottom: -10px;
+      }
+      .sign-up-button {
+        width: 900px;
+        height: 90px;
+        margin-top: 40px;
+        color: white;
+        background-color: rgba(12, 53, 156, 0.886);
+        font-family: Arial;
+        font-size: 29px;
+        cursor: pointer;
+      }
+      .sign-up-button:hover {
+        background-color: rgb(67, 64, 64);
+      }
+    </style>
+  </head>
+  
+  
+  <body style="background-color: lightblue;">
+    <div class="full-page">
+      <h1 class="sign-up">CREATE NEW ACCOUNT</h1>
+      <input class="inputs" type="text" placeholder="Last Name ">
+      <input class="inputs" type="text" placeholder="First Name ">
+      <p class="texts">Email</p>
+      <input class="inputss"  type="text" placeholder="Enter your email">
+      <p class="texts">Password</p>
+      <input class="inputss"  type="text" placeholder="Create a password?">
+      <p></p>
+      <input class="inputss"  type="text" placeholder="Confirm your password?">
+      <div>
+        <input style="height: 60px; width: 35px;" type="checkbox">
+        <p class="texts" style="margin-top: -43px; margin-left: 70px;">I agree to the terms and conditions </p>
+      </div>
+      <button class="sign-up-button">Sign Up</button>
+      
+
+
+    </div>
+  </body>
+</html>
